@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9987420-79a9-4ceb-9b7b-47e2384e4668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/volatile1/VolatileCountMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/volatile1/VolatileFlagMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/volatile1/VolatileFlagMain2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +81,9 @@
     "Application.ThreadStopMainV2.executor": "Run",
     "Application.ThreadStopMainV3.executor": "Run",
     "Application.ThreadStopMainV4.executor": "Run",
+    "Application.VolatileCountMain.executor": "Run",
+    "Application.VolatileFlagMain.executor": "Run",
+    "Application.VolatileFlagMain2.executor": "Run",
     "Application.YieldMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -127,7 +132,8 @@
       <workItem from="1728097297425" duration="942000" />
       <workItem from="1728180194705" duration="5315000" />
       <workItem from="1728300295647" duration="5415000" />
-      <workItem from="1728433813037" duration="3037000" />
+      <workItem from="1728433813037" duration="4229000" />
+      <workItem from="1728660563165" duration="3438000" />
     </task>
     <servers />
   </component>
