@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9987420-79a9-4ceb-9b7b-47e2384e4668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/sync/BackAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/sync/BackAccountV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/sync/BankMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/sync/WithdrawTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/sync/BackAccountV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/sync/BackAccountV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/sync/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/sync/BankMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,11 +107,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.sync" />
       <recent name="thread.control.printer" />
       <recent name="thread.control.interrupt" />
       <recent name="thread.control.test" />
       <recent name="thread.control.join" />
-      <recent name="thread.start" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -137,7 +136,7 @@
       <workItem from="1728300295647" duration="5415000" />
       <workItem from="1728433813037" duration="4229000" />
       <workItem from="1728660563165" duration="3438000" />
-      <workItem from="1728701108473" duration="3813000" />
+      <workItem from="1728701108473" duration="6431000" />
     </task>
     <servers />
   </component>
