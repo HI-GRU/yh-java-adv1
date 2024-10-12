@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9987420-79a9-4ceb-9b7b-47e2384e4668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/sync/BackAccountV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/sync/BackAccountV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/sync/test/Immutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/sync/test/SyncTest1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/sync/test/SyncTest2Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/sync/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/sync/BankMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,8 @@
     "Application.StartTest2Main.executor": "Run",
     "Application.StartTest3Main.executor": "Run",
     "Application.StartTest4Main.executor": "Run",
+    "Application.SyncTest1Main.executor": "Run",
+    "Application.SyncTest2Main.executor": "Run",
     "Application.ThreadInfoMain.executor": "Run",
     "Application.ThreadStateMain.executor": "Run",
     "Application.ThreadStopMainV1.executor": "Run",
@@ -136,7 +139,7 @@
       <workItem from="1728300295647" duration="5415000" />
       <workItem from="1728433813037" duration="4229000" />
       <workItem from="1728660563165" duration="3438000" />
-      <workItem from="1728701108473" duration="6431000" />
+      <workItem from="1728701108473" duration="9814000" />
     </task>
     <servers />
   </component>
