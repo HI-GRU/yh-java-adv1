@@ -12,7 +12,16 @@ public class BankMain {
 //        BackAccount account = new BackAccountV2(1000);
 
         // synchronized block
-        BackAccount account = new BackAccountV3(1000);
+//        BackAccount account = new BackAccountV3(1000);
+
+        // ReentrantLock
+//        BackAccount account = new BackAccountV4(1000);
+
+        // ReentrantLock lock.tryLock()
+//        BackAccount account = new BackAccountV5(1000);
+
+        // ReentrantLock lock.tryLock(500, TimeUnit.MILLISECONDS)
+        BackAccount account = new BackAccountV6(1000);
 
         Thread t1 = new Thread(new WithdrawTask(account, 800), "t1");
         Thread t2 = new Thread(new WithdrawTask(account, 800), "t2");
