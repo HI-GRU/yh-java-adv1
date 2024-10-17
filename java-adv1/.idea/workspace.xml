@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9987420-79a9-4ceb-9b7b-47e2384e4668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/ConsumerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/ProducerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/bounded/BoundedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +145,8 @@
       <workItem from="1728782174220" duration="3704000" />
       <workItem from="1728910357379" duration="3689000" />
       <workItem from="1728999275463" duration="4812000" />
+      <workItem from="1729086195658" duration="717000" />
+      <workItem from="1729163254821" duration="1858000" />
     </task>
     <servers />
   </component>
