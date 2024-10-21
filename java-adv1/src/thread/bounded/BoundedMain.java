@@ -2,6 +2,8 @@ package thread.bounded;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
 
 import static util.MyLogger.log;
 import static util.ThreadUtils.sleep;
@@ -14,12 +16,16 @@ public class BoundedMain {
 //        BoundedQueue queue = new BoundedQueueV2(2); // synchronized 생산자 소비자 문제
 //        BoundedQueue queue = new BoundedQueueV3(2); // Object.wait() / Object.notify() 예제
 //        BoundedQueue queue = new BoundedQueueV4(2); // Condition 예제
-        BoundedQueue queue = new BoundedQueueV4(2); // Condition 2개 사용하는 예제
-
+//        BoundedQueue queue = new BoundedQueueV4(2); // Condition 2개 사용하는 예제
+//        BoundedQueue queue = new BoundedQueueV6_1(2); // ArrayBlockingQueue put, take
+//        BoundedQueue queue = new BoundedQueueV6_2(2); // ArrayBlockingQueue offer, poll
+//        BoundedQueue queue = new BoundedQueueV6_3(2); // ArrayBlockingQueue offer, poll 특정 시간만큼 대기
+        BoundedQueue queue = new BoundedQueueV6_4(2); // ArrayBlockingQueue add, remove 예외
+//        BlockingQueue queue = new ArrayBlockingQueue(2); // 최종 결과
         
         // 2. 생산자, 소비자 실행 순서 선택, 반드시 하나만 선택!
-//        producerFirst(queue); // 생산자 먼저 실행
-        consumerFirst(queue); // 소비자 먼저 실행
+        producerFirst(queue); // 생산자 먼저 실행
+//        consumerFirst(queue); // 소비자 먼저 실행
     }
 
     private static void producerFirst(BoundedQueue queue) {
