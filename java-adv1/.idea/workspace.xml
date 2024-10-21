@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9987420-79a9-4ceb-9b7b-47e2384e4668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV6_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV6_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV6_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV6_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/CasMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/CasMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/BasicInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/IncrementInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/IncrementPerformanceMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/IncrementThreadMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/MyAtomicInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/SyncInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/VolatileInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/bounded/BoundedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +38,12 @@
     &quot;assignee&quot;: &quot;parseler&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/parseler/yh-java-adv1&quot;,
-    &quot;accountId&quot;: &quot;975b19d3-0ae7-4560-a6ea-73ac449f218a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/HI-GRU/yh-java-adv1.git",
+    "accountId": "975b19d3-0ae7-4560-a6ea-73ac449f218a"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -56,9 +60,13 @@
     "Application.BadThreadMain.executor": "Run",
     "Application.BankMain.executor": "Run",
     "Application.BoundedMain.executor": "Run",
+    "Application.CasMainV1.executor": "Run",
+    "Application.CasMainV2.executor": "Run",
     "Application.DaemonThreadMain.executor": "Run",
     "Application.HelloRunnableMain.executor": "Run",
     "Application.HelloThreadMain.executor": "Run",
+    "Application.IncrementPerformanceMain.executor": "Run",
+    "Application.IncrementThreadMain.executor": "Run",
     "Application.InnerRunnableMainV1.executor": "Run",
     "Application.InnerRunnableMainV2.executor": "Run",
     "Application.InnerRunnableMainV3.executor": "Run",
@@ -114,11 +122,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.cas" />
+      <recent name="thread.cas.increment" />
       <recent name="thread.bounded" />
       <recent name="thread.sync" />
       <recent name="thread.sync.lock" />
-      <recent name="thread.control.printer" />
-      <recent name="thread.control.interrupt" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -151,6 +159,7 @@
       <workItem from="1729163254821" duration="2458000" />
       <workItem from="1729255103453" duration="3704000" />
       <workItem from="1729397159079" duration="21000" />
+      <workItem from="1729512538521" duration="3063000" />
     </task>
     <servers />
   </component>
