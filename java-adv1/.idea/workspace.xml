@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9987420-79a9-4ceb-9b7b-47e2384e4668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/CasMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/CasMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/BasicInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/IncrementInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/IncrementPerformanceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/IncrementThreadMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/MyAtomicInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/SyncInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/VolatileInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/CasMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/spinlock/SpinLockBad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/spinlock/SpinLockMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/cas/CasMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/cas/CasMainV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +33,12 @@
     &quot;assignee&quot;: &quot;parseler&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HI-GRU/yh-java-adv1.git",
-    "accountId": "975b19d3-0ae7-4560-a6ea-73ac449f218a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HI-GRU/yh-java-adv1.git&quot;,
+    &quot;accountId&quot;: &quot;975b19d3-0ae7-4560-a6ea-73ac449f218a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -62,6 +57,7 @@
     "Application.BoundedMain.executor": "Run",
     "Application.CasMainV1.executor": "Run",
     "Application.CasMainV2.executor": "Run",
+    "Application.CasMainV3.executor": "Run",
     "Application.DaemonThreadMain.executor": "Run",
     "Application.HelloRunnableMain.executor": "Run",
     "Application.HelloThreadMain.executor": "Run",
@@ -86,6 +82,7 @@
     "Application.MyPrinterV1.executor": "Run",
     "Application.MyPrinterV2.executor": "Run",
     "Application.MyPrinterV3.executor": "Run",
+    "Application.SpinLockMain.executor": "Run",
     "Application.StartTest1Main.executor": "Run",
     "Application.StartTest2Main.executor": "Run",
     "Application.StartTest3Main.executor": "Run",
@@ -159,7 +156,8 @@
       <workItem from="1729163254821" duration="2458000" />
       <workItem from="1729255103453" duration="3704000" />
       <workItem from="1729397159079" duration="21000" />
-      <workItem from="1729512538521" duration="3063000" />
+      <workItem from="1729512538521" duration="3214000" />
+      <workItem from="1729595929452" duration="3124000" />
     </task>
     <servers />
   </component>

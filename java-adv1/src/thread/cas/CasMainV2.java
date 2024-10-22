@@ -3,6 +3,7 @@ package thread.cas;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import static util.MyLogger.log;
+import static util.ThreadUtils.sleep;
 
 public class CasMainV2 {
 
@@ -24,6 +25,7 @@ public class CasMainV2 {
 
         do {
             getValue = atomicInteger.get();
+//            sleep(100);
             log("getValue: " + getValue);
             result = atomicInteger.compareAndSet(getValue, getValue + 1);
             log("result: " + result);
