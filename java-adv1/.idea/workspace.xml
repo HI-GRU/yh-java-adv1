@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9987420-79a9-4ceb-9b7b-47e2384e4668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/CasMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/spinlock/SpinLockBad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/spinlock/SpinLockMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/java/ListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/java/SynchronizedListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/simple/list/BasicList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/simple/list/SimpleList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/simple/list/SimpleListMainV0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/simple/list/SimpleListMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/simple/list/SimpleListMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/simple/list/SyncList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/simple/list/SyncProxyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/cas/CasMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/cas/CasMainV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +87,8 @@
     "Application.MyPrinterV1.executor": "Run",
     "Application.MyPrinterV2.executor": "Run",
     "Application.MyPrinterV3.executor": "Run",
+    "Application.SimpleListMainV1.executor": "Run",
+    "Application.SimpleListMainV2.executor": "Run",
     "Application.SpinLockMain.executor": "Run",
     "Application.StartTest1Main.executor": "Run",
     "Application.StartTest2Main.executor": "Run",
@@ -89,6 +96,7 @@
     "Application.StartTest4Main.executor": "Run",
     "Application.SyncTest1Main.executor": "Run",
     "Application.SyncTest2Main.executor": "Run",
+    "Application.SynchronizedListMain.executor": "Run",
     "Application.ThreadInfoMain.executor": "Run",
     "Application.ThreadStateMain.executor": "Run",
     "Application.ThreadStopMainV1.executor": "Run",
@@ -119,11 +127,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.collection.simple.list" />
       <recent name="thread.cas" />
       <recent name="thread.cas.increment" />
       <recent name="thread.bounded" />
       <recent name="thread.sync" />
-      <recent name="thread.sync.lock" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -158,6 +166,7 @@
       <workItem from="1729397159079" duration="21000" />
       <workItem from="1729512538521" duration="3214000" />
       <workItem from="1729595929452" duration="3124000" />
+      <workItem from="1729682523782" duration="3711000" />
     </task>
     <servers />
   </component>
