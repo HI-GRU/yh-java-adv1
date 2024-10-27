@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9987420-79a9-4ceb-9b7b-47e2384e4668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/RunnableMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/FutureCancelMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/FutureExceptionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/InvokeAllMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/InvokeAnyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/test/NewOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/test/OldOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/test/OldOrderServiceTestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,15 +37,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;
+    }
+  ],
   &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;parseler&quot;
+    &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/HI-GRU/yh-java-adv1.git&quot;,
-    &quot;accountId&quot;: &quot;975b19d3-0ae7-4560-a6ea-73ac449f218a&quot;
+    &quot;accountId&quot;: &quot;b54ebff7-c456-4ad9-8652-4a1d274c3c05&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -52,11 +68,15 @@
     "Application.BadThreadMain.executor": "Run",
     "Application.BankMain.executor": "Run",
     "Application.BoundedMain.executor": "Run",
+    "Application.CallableMainV1.executor": "Run",
+    "Application.CallableMainV2.executor": "Run",
     "Application.CasMainV1.executor": "Run",
     "Application.CasMainV2.executor": "Run",
     "Application.CasMainV3.executor": "Run",
     "Application.DaemonThreadMain.executor": "Run",
     "Application.ExecutorBasicMain.executor": "Run",
+    "Application.FutureCancelMain.executor": "Run",
+    "Application.FutureExceptionMain.executor": "Run",
     "Application.HelloRunnableMain.executor": "Run",
     "Application.HelloThreadMain.executor": "Run",
     "Application.IncrementPerformanceMain.executor": "Run",
@@ -64,6 +84,8 @@
     "Application.InnerRunnableMainV1.executor": "Run",
     "Application.InnerRunnableMainV2.executor": "Run",
     "Application.InnerRunnableMainV3.executor": "Run",
+    "Application.InvokeAllMain.executor": "Run",
+    "Application.InvokeAnyMain.executor": "Run",
     "Application.JoinMainV0.executor": "Run",
     "Application.JoinMainV1.executor": "Run",
     "Application.JoinMainV2.executor": "Run",
@@ -80,6 +102,8 @@
     "Application.MyPrinterV1.executor": "Run",
     "Application.MyPrinterV2.executor": "Run",
     "Application.MyPrinterV3.executor": "Run",
+    "Application.OldOrderServiceTestMain.executor": "Run",
+    "Application.RunnableMain.executor": "Run",
     "Application.SimpleListMainV1.executor": "Run",
     "Application.SimpleListMainV2.executor": "Run",
     "Application.SpinLockMain.executor": "Run",
@@ -87,6 +111,7 @@
     "Application.StartTest2Main.executor": "Run",
     "Application.StartTest3Main.executor": "Run",
     "Application.StartTest4Main.executor": "Run",
+    "Application.SumTaskMainV2.executor": "Run",
     "Application.SyncTest1Main.executor": "Run",
     "Application.SyncTest2Main.executor": "Run",
     "Application.SynchronizedListMain.executor": "Run",
@@ -114,17 +139,17 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.executor.future" />
       <recent name="thread.collection.simple.list" />
       <recent name="thread.cas" />
       <recent name="thread.cas.increment" />
       <recent name="thread.bounded" />
-      <recent name="thread.sync" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -162,7 +187,9 @@
       <workItem from="1729682523782" duration="4314000" />
       <workItem from="1729687762800" duration="4000" />
       <workItem from="1729778279040" duration="14000" />
-      <workItem from="1729858920414" duration="2298000" />
+      <workItem from="1729858920414" duration="2996000" />
+      <workItem from="1729905194727" duration="5931000" />
+      <workItem from="1730032149976" duration="3261000" />
     </task>
     <servers />
   </component>
