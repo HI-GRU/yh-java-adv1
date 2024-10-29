@@ -5,20 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9987420-79a9-4ceb-9b7b-47e2384e4668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/FutureCancelMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/FutureExceptionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/InvokeAllMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/InvokeAnyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/test/NewOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/test/OldOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/test/OldOrderServiceTestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/ExecutorShutdownMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/poolsize/PoolSizeMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/poolsize/PoolSizeMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/poolsize/PoolSizeMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/poolsize/PoolSizeMainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/reject/RejectMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/reject/RejectMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/reject/RejectMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/reject/RejectMainV4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/executor/ExecutorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/executor/ExecutorUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +72,7 @@
     "Application.CasMainV3.executor": "Run",
     "Application.DaemonThreadMain.executor": "Run",
     "Application.ExecutorBasicMain.executor": "Run",
+    "Application.ExecutorShutdownMain.executor": "Run",
     "Application.FutureCancelMain.executor": "Run",
     "Application.FutureExceptionMain.executor": "Run",
     "Application.HelloRunnableMain.executor": "Run",
@@ -103,6 +101,14 @@
     "Application.MyPrinterV2.executor": "Run",
     "Application.MyPrinterV3.executor": "Run",
     "Application.OldOrderServiceTestMain.executor": "Run",
+    "Application.PoolSizeMainV1.executor": "Run",
+    "Application.PoolSizeMainV2.executor": "Run",
+    "Application.PoolSizeMainV3.executor": "Run",
+    "Application.PoolSizeMainV4.executor": "Run",
+    "Application.RejectMainV1.executor": "Run",
+    "Application.RejectMainV2.executor": "Run",
+    "Application.RejectMainV3.executor": "Run",
+    "Application.RejectMainV4.executor": "Run",
     "Application.RunnableMain.executor": "Run",
     "Application.SimpleListMainV1.executor": "Run",
     "Application.SimpleListMainV2.executor": "Run",
@@ -145,11 +151,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.executor.reject" />
+      <recent name="thread.executor.poolsize" />
       <recent name="thread.executor.future" />
       <recent name="thread.collection.simple.list" />
       <recent name="thread.cas" />
-      <recent name="thread.cas.increment" />
-      <recent name="thread.bounded" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -189,7 +195,10 @@
       <workItem from="1729778279040" duration="14000" />
       <workItem from="1729858920414" duration="2996000" />
       <workItem from="1729905194727" duration="5931000" />
-      <workItem from="1730032149976" duration="3261000" />
+      <workItem from="1730032149976" duration="4075000" />
+      <workItem from="1730120168780" duration="1155000" />
+      <workItem from="1730202084227" duration="4175000" />
+      <workItem from="1730208194910" duration="1470000" />
     </task>
     <servers />
   </component>
